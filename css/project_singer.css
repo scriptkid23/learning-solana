@@ -1,0 +1,218 @@
+* {
+    padding: 0em;
+    margin: 0em;
+}
+#about_wrapper_header{
+    position: relative;
+    height: 100px;
+    width: 1365px;
+}
+.icon {
+    padding:2.5em;
+    position: absolute;
+    padding-left: 8em;
+}
+.header {
+    margin-left: 58em;
+    position: relative;
+}
+.header ul{
+    padding: 2.5em;
+}
+.header li:hover{
+    color: #10c9c3;
+    transition-duration: 0.25s;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    
+}
+li {
+    padding-left: 2em;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#wrapper_banner {
+    position: relative;
+    width: 1365px;
+    height: 572px;
+}
+.banner{
+    display: flex;
+    
+}
+.col_text {
+    width: 682.5px;
+    height: 572px;
+    position: relative;
+    background-color: #f6f6f6;
+}
+.col_photo{
+    width: 682.5px;
+    height: 572px;
+}
+.col_text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38pt;
+    font-weight: bold;
+    padding-top: 101px;
+    padding-left: 93px;
+}
+.line_1, .line_2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13pt;
+    color: #787878;
+    padding-left: 93px;
+    padding-top: 27px;
+    font-weight: 600;
+}
+.info {
+    padding-top: 47px;
+    padding-left: 93px;
+}
+.info p{
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    
+    
+}
+.info_All{
+    font-weight: bold;
+    position: absolute;
+}
+.info_all {
+    color: #787878;
+    padding-left: 3em;
+    font-weight: bold;
+    
+}
+.previous_project {
+    display: flex;
+    padding-left: 7.5em;
+    padding-top: 1.5em;
+    position: absolute;
+}
+.next_project{
+    display: flex;
+    right: 0px;
+    position: absolute;
+    padding-top: 1.5em;
+    padding-right: 7.5em;
+}
+.next,.previous {
+    display: flex;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+.load {
+    position: relative;
+    left: 41.5em;
+}
+.load img {
+    padding-top: 2.4em;
+}
+#wrapper_next {
+    position: relative;
+    height: 100px;
+    width: 1365px;
+}
+#wrapper_footer{
+    position: relative;
+    border: 1px solid black;
+    width: 1365px;
+    height: 285px;
+    background-color: #141414;
+}
+.footer {
+    display: flex;
+}
+.footer_col_1 {
+    padding-left: 98px;
+    padding-top: 101px;
+}
+.footer_col_1 h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    
+}
+.footer_col_1 p {
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15pt;
+}
+.footer_col_2 {
+    padding-left: 98px;
+    padding-top: 101px;
+    color: #bcbcbc;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.footer_col_3 {
+    position: relative;
+    width: 7em;
+    height: 285px;
+    margin-left: 30em;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;    
+}
+.footer_col_3 a {
+    color: #bcbcbc;;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+}
+.footer_col_3 p {
+    padding:0.5em;
+    
+}
+.footer_link{
+    margin-top: 3em;
+}
+.footer_col_3 p:hover{
+    color: #F4932A;
+    transition-duration: 0.25s;
+}
+
+
+
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+.load {
+ padding-top: 1.5em;   
+}

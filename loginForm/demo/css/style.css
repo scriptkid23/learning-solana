@@ -1,0 +1,72 @@
+html, body {
+    padding: 0em;
+    margin: 0em;
+}
+#particles-js{ position:absolute;
+    width: 100%; 
+    height: auto;
+    background-color: #221e1f;
+    background-image: url(../nasa-43563-unsplash.jpg);
+    } 
+.username {
+    padding: 1em;
+    position: absolute;
+    bottom: 300px;
+    right: 500px;
+    width: 20em;
+    opacity: 0.9;
+}
+.password{
+    padding: 1em;
+    position: absolute;
+    bottom: 250px;
+    right: 500px;
+    width: 20em;
+    opacity: 0.9;
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+.logo {
+    color: white;
+    position: absolute;
+    left: 8em;
+    top: 7.5em;
+    font-size: 30pt;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 0.6em;
+}
+.Login {
+    color: #1E90FF;
+    position: absolute;
+}
+.button {
+    position: absolute;
+    right: 500.5px;
+    bottom: 200px;
+}
+.style {
+    padding: 0.8em 8.1em 0.8em 8.4em;
+    border: 1px solid #1E90FF;
+    font-family: 'Nunito', sans-serif;
+    background:none;
+    color:#1E90FF;
+    font-weight: bold;
+}
+.style:hover{
+        background:#1E90FF;
+        color: white;
+        transition-duration: 0.25s;   
+}
